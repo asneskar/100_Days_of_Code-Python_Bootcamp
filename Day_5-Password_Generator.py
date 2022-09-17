@@ -34,4 +34,4 @@ for random_character in range(1, number_characters + 1):
   password += random_character
   password_characters.remove(random_character)
 
-print(password)
+print(f"Your password is: {password}")
